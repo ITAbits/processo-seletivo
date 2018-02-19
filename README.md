@@ -102,7 +102,7 @@ Finalmente, depois dessa introdução aos algoritmos, aqui vai a atividade que v
 Um dos problemas mais clássicos da computação é o problema da ordenação. Nesse problema, a tarefa é simplesmente ordenar uma certa quantidade de informação. Por exemplo:
 
 ```
-2, 23, -5, 12, 19, 0 -20, 12   ---->   -5, 0, 2, 12, 12, 19, 20, 23
+2, 23, -5, 12, 19, 0 -20, 12   ---->   -20, -5, 0, 2, 12, 12, 19, 23
 ```
 
 Aqui, tinhamos uma lista de números e a ordenamos em ordem crescente.
