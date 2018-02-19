@@ -52,8 +52,11 @@ Vamos ver agora um algoritmo mais eficiente.
 
 ```
 * Instrução 1 - Nomear o valor 1 como mínimo e o valor 1000000 como máximo.
-* Instrução 2 - Palpitar a média aritmética ente o valor mínimo e o valor máximo (mínimo + máximo)/2, arredondar para baixo casoa divisão não seja inteira.
-* Instrução 3 - Se o palpite for correto, finalizamoso o algoritmo. Se o nosso palpite for menor que o número secreto, atualizamos o nosso valor mínimo para o nosso valor do palpite. Caso contrário, atualizamos o nosso valor máximo para o valor do palpite.
+* Instrução 2 - Palpitar a média aritmética ente o valor mínimo e o valor máximo (mínimo + máximo)/2, 
+arredondar para baixo casoa divisão não seja inteira.
+* Instrução 3 - Se o palpite for correto, finalizamoso o algoritmo. Se o nosso palpite for menor
+que o número secreto, atualizamos o nosso valor mínimo para o nosso valor do palpite. 
+Caso contrário, atualizamos o nosso valor máximo para o valor do palpite.
 * Instrução 4 - Pule para a Instrução 2.
 
 ``` 
@@ -92,4 +95,35 @@ Apesar de ambos os algoritmos resolverem o problema corretamente, o segundo faz 
 
 O algoritmo que você acabou de ver se chama Busca binária, caso tenha interesse de procurar mais a respeito e sobre suas aplicações.
 
+## Atividade
 
+Finalmente, depois dessa introdução aos algoritmos, aqui vai a atividade que você deverá fazer na entrevista.
+
+Um dos problemas mais clássicos da computação é o problema da ordenação. Nesse problema, a tarefa é simplesmente ordenar uma certa quantidade de informação. Por exemplo:
+
+```
+2, 23, -5, 12, 19, 0 -20, 12   ---->   -5, 0, 2, 12, 12, 19, 20, 23
+```
+
+Aqui, tinhamos uma lista de números e a ordenamos em ordem crescente.
+
+Como no exemplo do jogo da adivinhação, existem diferentes algoritmos para ordenação de coisas (usaremos números em ordem nesse texto por simplicidade). Esses algoritmos funcionam de maneiras diferentes e podem resolver o problema com números distintos de ações, como os dois algoritmos do jogo de adivinhação acima.
+
+A sua tarefa será ordenar um grupo de cartas de baralho, com a menor quantidade de operações possível, seguindo as regras abaixo:
+1. Todas as cartas estarão viradas para baixo sobre a mesa, dispostas da esquerda para a direita
+2. Você poderá virar duas cartas para cima e decidir se deve trocá-las ou não de lugar na mesa
+3. Cada vez que virar duas cartas para cima, será considerado que você executou uma operação
+4. Trocar cartas de lugar não é considerado uma operação
+
+Como sou um veterano muito mãe, vou listar abaixo alguns algoritmos de ordenação pra vocês. Então o seu trabalho será apenas pesquisá-los no Google, entendê-los, e escolher o que achar melhor para a tarefa. Na entrevista, deverá explicar a sua escolha e executá-lo para ordenar as nossas cartinhas.
+
+Aqui vai a lista com o nome dos algoritmos mais comuns. Escolha bem o seu:
+* Bubble sort
+* Selection sort
+* Insertion sort
+* Merge Sort
+* Quick Sort
+
+Caso tenha alguma dúvida sobre a tarefa, sobre algum algoritmo, sobre qualquer coisa escrita aqui ou queira bater um papo mesmo, basta procurar qualquer membro da bits. Estamos ansiosos para conhecer vocês e bostejar um pouco também. :)
+
+Abraços, Guima T-19.
