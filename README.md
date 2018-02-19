@@ -53,21 +53,21 @@ Vamos ver agora um algoritmo mais eficiente.
 ```
 * Instrução 1 - Nomear o valor 1 como mínimo e o valor 1000000 como máximo.
 * Instrução 2 - Palpitar a média aritmética ente o valor mínimo e o valor máximo (mínimo + máximo)/2, 
-arredondar para baixo casoa divisão não seja inteira.
-* Instrução 3 - Se o palpite for correto, finalizamoso o algoritmo. Se o nosso palpite for menor
+arredondar para baixo caso a divisão não seja inteira.
+* Instrução 3 - Se o palpite for correto, finalizamos o o algoritmo. Se o nosso palpite for menor
 que o número secreto, atualizamos o nosso valor mínimo para o nosso valor do palpite. 
 Caso contrário, atualizamos o nosso valor máximo para o valor do palpite.
 * Instrução 4 - Pule para a Instrução 2.
 
 ``` 
 Agora com esse segundo algoritmo, vamos ver o que aconteceria se o número secreto for de novo 62442.
-Inicialmente nosso mínimo vale 1 e nosso máximo vale 1000000. Palpitaríamos inicialmente (1 + 1000000)/2 = 500000 arredondado para baixo. Como 500000 é maior que 5000, na instrução 3 atualizaríamos o nosso máximo para 500000. Voltaríamos para a instrução 2 agora com o valor mínimo sendo 1 e o máximo sendo 50000. Logo, nosso palpite será agora (1 + 500000)/2 = 250000. Como novamente 25000 é maior que 5000, atualizamos novamente o nosso valor máximo para 250000.
+Inicialmente, nosso mínimo vale 1 e nosso máximo vale 1000000. Palpitaríamos inicialmente (1 + 1000000)/2 = 500000 arredondado para baixo. Como 500000 é maior que 5000, na instrução 3 atualizaríamos o nosso máximo para 500000. Voltaríamos para a instrução 2 agora com o valor mínimo sendo 1 e o máximo sendo 50000. Logo, nosso palpite será agora (1 + 500000)/2 = 250000. Como novamente 25000 é maior que 5000, atualizamos novamente o nosso valor máximo para 250000.
 
 Seguindo essa lógica, vamos ver quantos palpites precisaríamos dar para vencer o jogo:
 
 
 | Rodada        | Mínimo      | Máximo  | Palpite|
-| ------------- |:-------------:| -----:|-----:|
+| :-----------: |:-------------:| :-----:|:-----:|
 | 1 |    1          | 1000000 |500000|
 | 2 | 1      |   500000 |250000|
 | 3 | 1      |    250000 |125000|
@@ -91,9 +91,9 @@ Seguindo essa lógica, vamos ver quantos palpites precisaríamos dar para vencer
 
 WOW! Conseguimos um enorme progresso com esse segundo algoritmo! Em vez de fazer 62442 palpites, agora precisamos de apenas 20 para chegar ao valor correto do nosso número secreto. 
 
-Apesar de ambos os algoritmos resolverem o problema corretamente, o segundo faz isso de uma maneira muito mais ráṕida. Na computação, as vezes precisamos dessa velocidade nos nossos algoritmos muitas vezes por questes de conveniência (você não gostaria de esperar um minuto pelo resultado da sua pesquisa no google por exemplo) ou até mesmo por questo de segurança!
+Apesar de ambos os algoritmos resolverem o problema corretamente, o segundo faz isso de uma maneira muito mais ráṕida. Na computação, às vezes precisamos dessa velocidade nos nossos algoritmos, muitas vezes por questão de conveniência (você não gostaria de esperar um minuto pelo resultado da sua pesquisa no google por exemplo), ou até mesmo por questão de segurança!
 
-O algoritmo que você acabou de ver se chama Busca binária, caso tenha interesse de procurar mais a respeito e sobre suas aplicações.
+> O algoritmo que você acabou de ver se chama Busca Binária, caso tenha interesse de procurar mais a respeito e sobre suas aplicações.
 
 ## Atividade
 
@@ -115,12 +115,14 @@ A sua tarefa será ordenar um grupo de cartas de baralho, com a menor quantidade
 3. Cada vez que virar duas cartas para cima, será considerado que você executou uma operação
 4. Trocar cartas de lugar não é considerado uma operação
 
-Como sou um veterano muito mãe, vou listar abaixo alguns algoritmos de ordenação pra vocês. Então o seu trabalho será apenas pesquisá-los no Google, entendê-los, e escolher o que achar melhor para a tarefa. Na entrevista, deverá explicar a sua escolha e executá-lo para ordenar as nossas cartinhas.
+Como sou um veterano muito mãe, vou listar abaixo alguns algoritmos de ordenação pra vocês. Então o seu trabalho será apenas pesquisá-los no Google, entendê-los e escolher o que achar melhor para a tarefa. Na entrevista, deverá explicar a sua escolha e executá-lo para ordenar as nossas cartinhas.
 
 Aqui vai a lista com o nome dos algoritmos mais comuns. Escolha bem o seu:
 * Bubble sort
 * Selection sort
 * Insertion sort
+
+Bônus, caso esteja vibrando bastante:
 * Merge Sort
 * Quick Sort
 
