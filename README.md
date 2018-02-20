@@ -38,12 +38,12 @@ Vamos agora ver dois algoritmos que resolvem esse desafio:
 * Instrução 4 - Volte para a Instrução 2.
 ```
 
-Com esse algoritmo, suponha que o número secreto é 62442. Ele entraria na instrução 1 e palpiratia o número 1 e seguiria para a instrução 2.
+Com esse algoritmo, suponha que o número secreto é 62442. Ele entraria na instrução 1, chutaria o número 1 e seguiria para a instrução 2.
 Como 1 não é igual a 62442, na instrução 2 não é chamado o fim do algoritmo e seguiríamos para a instrução 3.
-Na instrução 3, palpitaríamos o palpite anterior (que é 1), somado de 1, resultando no palpite do número 2. E seguimos para a instrução 4.
-Na instrução 4, voltaríamos para a instrução 2 e verificaríamos a veracidade do nosso palpite. Como 2 não é igual a 62442, seguiríamos para a instrução 3 e palpitaríamos agora o número 3.
+Na instrução 3, chutaríamos o palpite anterior (que é 1) somado de 1, resultando no número 2 como novo palpite. E seguimos para a instrução 4.
+Na instrução 4, voltaríamos para a instrução 2 e verificaríamos a veracidade do nosso palpite. Como 2 não é igual a 62442, seguiríamos para a instrução 3 e chutaríamos agora o número 3.
 
-Perceba que demoraríamos 62442 palpites para acertar o valor do nosso número secreto, e não estamos também usando a informação de que nossos palpites são maiores ou menores que o número secreto pois nesse caso, a gente sempre palpita o menor número possível.
+Perceba que demoraríamos 62442 palpites para acertar o valor do nosso número secreto e não estamos também usando a informação de que nossos palpites são maiores ou menores que o número secreto pois nesse caso, a gente sempre palpita o menor número possível.
 Com esse algoritmo, se o número secreto for 9999999, demoraríamos bastante para ganhar o jogo.
 
 Vamos ver agora um algoritmo mais eficiente.
@@ -61,7 +61,7 @@ Caso contrário, atualizamos o nosso valor máximo para o valor do palpite.
 
 ``` 
 Agora com esse segundo algoritmo, vamos ver o que aconteceria se o número secreto for de novo 62442.
-Inicialmente, nosso mínimo vale 1 e nosso máximo vale 1000000. Palpitaríamos inicialmente (1 + 1000000)/2 = 500000 arredondado para baixo. Como 500000 é maior que 5000, na instrução 3 atualizaríamos o nosso máximo para 500000. Voltaríamos para a instrução 2 agora com o valor mínimo sendo 1 e o máximo sendo 500000. Logo, nosso palpite será agora (1 + 500000)/2 = 250000. Como novamente 250000 é maior que 5000, atualizamos novamente o nosso valor máximo para 250000.
+Inicialmente, nosso mínimo vale 1 e nosso máximo vale 1000000. Palpitaríamos inicialmente (1 + 1000000)/2 = 500000 arredondado para baixo. Como 500000 é maior que 5000, na instrução 3 atualizaríamos o nosso máximo para 500000. Voltaríamos para a instrução 2 agora com o valor mínimo sendo 1 e o máximo sendo 50000. Logo, nosso palpite será agora (1 + 500000)/2 = 250000. Como novamente 25000 é maior que 5000, atualizamos novamente o nosso valor máximo para 250000.
 
 Seguindo essa lógica, vamos ver quantos palpites precisaríamos dar para vencer o jogo:
 
@@ -72,7 +72,7 @@ Seguindo essa lógica, vamos ver quantos palpites precisaríamos dar para vencer
 | 2 | 1      |   500000 |250000|
 | 3 | 1      |    250000 |125000|
 | 4 | 1      |    125000 |62500|
-| 5 | 1     |  62500  | 31250 |
+| 5 | 62500     |  12500  | 31250 |
 |6| 31250| 62500| 46875|
 |7| 46875| 62500| 54687|
 |8| 54687| 62500| 58593|
@@ -91,7 +91,7 @@ Seguindo essa lógica, vamos ver quantos palpites precisaríamos dar para vencer
 
 WOW! Conseguimos um enorme progresso com esse segundo algoritmo! Em vez de fazer 62442 palpites, agora precisamos de apenas 20 para chegar ao valor correto do nosso número secreto. 
 
-Apesar de ambos os algoritmos resolverem o problema corretamente, o segundo faz isso de uma maneira muito mais ráṕida. Na computação, às vezes precisamos dessa velocidade nos nossos algoritmos, muitas vezes por questão de conveniência (você não gostaria de esperar um minuto pelo resultado da sua pesquisa no google por exemplo), ou até mesmo por questão de segurança!
+Apesar de ambos os algoritmos resolverem o problema corretamente, o segundo faz isso de uma maneira muito mais ráṕida. Na computação, às vezes precisamos dessa velocidade nos nossos algoritmos, muitas vezes por questão de conveniência (você não gostaria de esperar um minuto pelo resultado da sua pesquisa no google por exemplo) ou até mesmo por questão de segurança!
 
 > O algoritmo que você acabou de ver se chama Busca Binária, caso tenha interesse de procurar mais a respeito e sobre suas aplicações.
 
