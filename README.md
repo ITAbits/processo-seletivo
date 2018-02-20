@@ -61,7 +61,7 @@ Caso contrário, atualizamos o nosso valor máximo para o valor do palpite.
 
 ``` 
 Agora com esse segundo algoritmo, vamos ver o que aconteceria se o número secreto for de novo 62442.
-Inicialmente, nosso mínimo vale 1 e nosso máximo vale 1000000. Palpitaríamos inicialmente (1 + 1000000)/2 = 500000 arredondado para baixo. Como 500000 é maior que 5000, na instrução 3 atualizaríamos o nosso máximo para 500000. Voltaríamos para a instrução 2 agora com o valor mínimo sendo 1 e o máximo sendo 50000. Logo, nosso palpite será agora (1 + 500000)/2 = 250000. Como novamente 25000 é maior que 5000, atualizamos novamente o nosso valor máximo para 250000.
+Inicialmente, nosso mínimo vale 1 e nosso máximo vale 1000000. Palpitaríamos inicialmente (1 + 1000000)/2 = 500000 arredondado para baixo. Como 500000 é maior que 62442, na instrução 3 atualizaríamos o nosso máximo para 500000. Voltaríamos para a instrução 2 agora com o valor mínimo sendo 1 e o máximo sendo 500000. Logo, nosso palpite será agora (1 + 500000)/2 = 250000. Como novamente 250000 é maior que 62442, atualizamos novamente o nosso valor máximo para 250000.
 
 Seguindo essa lógica, vamos ver quantos palpites precisaríamos dar para vencer o jogo:
 
@@ -72,7 +72,7 @@ Seguindo essa lógica, vamos ver quantos palpites precisaríamos dar para vencer
 | 2 | 1      |   500000 |250000|
 | 3 | 1      |    250000 |125000|
 | 4 | 1      |    125000 |62500|
-| 5 | 62500     |  12500  | 31250 |
+| 5 | 1    |  62500  | 31250 |
 |6| 31250| 62500| 46875|
 |7| 46875| 62500| 54687|
 |8| 54687| 62500| 58593|
