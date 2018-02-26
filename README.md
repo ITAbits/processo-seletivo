@@ -115,17 +115,8 @@ A sua tarefa será ordenar um grupo de cartas de baralho, com a menor quantidade
 3. Cada vez que virar duas cartas para cima, será considerado que você executou uma operação
 4. Trocar cartas de lugar não é considerado uma operação
 
-Como sou um veterano muito mãe, vou listar abaixo alguns algoritmos de ordenação pra vocês. Então o seu trabalho será apenas pesquisá-los no Google, entendê-los e escolher o que achar melhor para a tarefa. Na entrevista, deverá explicar a sua escolha e executá-lo para ordenar as nossas cartinhas.
-
-Aqui vai a lista com o nome dos algoritmos mais comuns. Escolha bem o seu:
-* Bubble sort
-* Selection sort
-* Insertion sort
-
-Bônus, caso esteja vibrando bastante:
-* Merge Sort
-* Quick Sort
-
-Caso tenha alguma dúvida sobre a tarefa, sobre algum algoritmo, sobre qualquer coisa escrita aqui ou queira bater um papo mesmo, basta procurar qualquer membro da bits. Estamos ansiosos para conhecer vocês e bostejar um pouco também. :)
-
 Abraços, Guima T-19.
+
+PS.: Caso você não esteja conseguindo transformar o seu jeito de ordenar as cartas do baralho em um algoritmo que se encaixe nas especificações dadas, ou caso esteja curioso em busca das mais diferentes soluções possíveis pra esse problema, a busca por "sorting algorithms" pode te trazer muitos conhecimentos interessantes.
+
+PPS.: Pros preguiçosos: http://lmgtfy.com/?iie=1&q=Sorting+Algorithms
