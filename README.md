@@ -114,7 +114,7 @@ A sua tarefa será explicar ao entrevistador como ordenar um grupo de cartas de 
 - Haverá um total de no máximo 8 cartas para serem ordenadas por vez
 - As cartas estarão viradas para baixo e dispostas lado a lado
 - O entrevistador só saberá fazer 3 operações:
-  1. Comparar duas cartas (virar e comparar os seus valores) e usar o resultado da comparação para executar outra operação.
+  1. Comparar duas cartas (virar e ver os seus valores) e usar o resultado da comparação para executar outra operação.
   2. Colocar cartas do baralho em algum lugar da mesa. 
   3. Pegar cartas do baralho de algum lugar da mesa.
 - As suas decisões de ordenamento devem seguir um algoritmo predefinido com base no que foi exposto acima e nos seus estudos.
@@ -124,7 +124,7 @@ Segue um exemplo de como a entrevista funcionaria caso o problema fosse separar 
 
 
 Abraços,
-Pessoal legal da ITAbits :)
+pessoal legal da ITAbits :)
 
 PS.: Caso você não esteja conseguindo transformar o seu jeito de ordenar as cartas do baralho em um algoritmo que se encaixe nas especificações dadas, ou caso esteja curioso em busca das mais diferentes soluções possíveis pra esse problema, a busca por "sorting algorithms" pode te trazer muitos conhecimentos interessantes.
 
