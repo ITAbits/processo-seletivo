@@ -109,14 +109,18 @@ Aqui, tinhamos uma lista de números e a ordenamos em ordem crescente.
 
 Como no exemplo do jogo da adivinhação, existem diferentes algoritmos para ordenação de coisas (usaremos números em ordem nesse texto por simplicidade). Esses algoritmos funcionam de maneiras diferentes e podem resolver o problema com números distintos de ações, como os dois algoritmos do jogo de adivinhação acima.
 
-A sua tarefa será ordenar um grupo de cartas de baralho, com a menor quantidade de operações possível, seguindo as regras abaixo:
-1. Todas as cartas estarão viradas para baixo sobre a mesa, dispostas da esquerda para a direita
-2. Você poderá virar duas cartas para cima e decidir se deve trocá-las ou não de lugar na mesa
-3. Cada vez que virar duas cartas para cima, será considerado que você executou uma operação
-4. Trocar cartas de lugar não é considerado uma operação
+A sua tarefa será explicar o entrevistador como ordenar um grupo de cartas de um baralho com as seguintes restrições:
+- O entrevistador só saberá fazer 3 operações:
+  1. Comparar duas cartas e usar o resultado da comparação para executar outra operação.
+  2. Colocar cartas do baralho em algum lugar da mesa. 
+  3. Pegar cartas do baralho de algum lugar da mesa.
+- O entrevistado não poderá ver o valor de nenhuma carta, mas pode apontar para cartas e/ou conjunto delas.
+- A sua explicação deve ser reproduzível pelo entrevistador com um conjunto diferente de cartas.
 
-Abraços, Guima T-19.
+Segue um exemplo de como a entrevista funcionaria caso o problema fosse separar por cor (visão do entrevistador, voz do entrevistado): [video](https://streamable.com/53g4v)
+
+Abraços, pessoal legal da ITAbits.
 
 PS.: Caso você não esteja conseguindo transformar o seu jeito de ordenar as cartas do baralho em um algoritmo que se encaixe nas especificações dadas, ou caso esteja curioso em busca das mais diferentes soluções possíveis pra esse problema, a busca por "sorting algorithms" pode te trazer muitos conhecimentos interessantes.
 
-PPS.: Pros preguiçosos: http://lmgtfy.com/?iie=1&q=Sorting+Algorithms
+PPS.: [Pros preguiçosos:](http://lmgtfy.com/?iie=1&q=Sorting+Algorithms)
