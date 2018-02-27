@@ -1,4 +1,4 @@
-# Processo Seletivo ITAbits
+# Processo Seletivo - ITAbits
 
 ## Introdução
 
@@ -109,18 +109,22 @@ Aqui, tinhamos uma lista de números e a ordenamos em ordem crescente.
 
 Como no exemplo do jogo da adivinhação, existem diferentes algoritmos para ordenação de coisas (usaremos números em ordem nesse texto por simplicidade). Esses algoritmos funcionam de maneiras diferentes e podem resolver o problema com números distintos de ações, como os dois algoritmos do jogo de adivinhação acima.
 
-A sua tarefa será explicar ao entrevistador como ordenar um grupo de cartas de um baralho com as seguintes restrições:
+A sua tarefa será explicar ao entrevistador como ordenar um grupo de cartas de um baralho convencional com as seguintes restrições:
+- Você será responsável por ditar as instruções ao entrevistador
+- Haverá um total de no máximo 8 cartas para serem ordenadas por vez
+- As cartas estarão viradas para baixo e dispostas lado a lado
 - O entrevistador só saberá fazer 3 operações:
-  1. Comparar duas cartas e usar o resultado da comparação para executar outra operação.
+  1. Comparar duas cartas (virar e comparar os seus valores) e usar o resultado da comparação para executar outra operação.
   2. Colocar cartas do baralho em algum lugar da mesa. 
   3. Pegar cartas do baralho de algum lugar da mesa.
-- Serão realizadas duas repetições, uma com todas as cartas visíveis (para cima) e outra com todas as cartas viradas (para baixo).
 - As suas decisões de ordenamento devem seguir um algoritmo predefinido com base no que foi exposto acima e nos seus estudos.
 - A sua explicação deve ser reproduzível pelo entrevistador com um conjunto diferente e qualquer de cartas.
 
 Segue um exemplo de como a entrevista funcionaria caso o problema fosse separar cartas de um baralho convencional por cor (a visão e a mão representam o entrevistador; a voz representa o entrevistado): [video-exemplo](https://streamable.com/53g4v). Ou seja, tudo se passará como se o entrevistador fosse o computador que vai seguir as instruções do entrevistado, que faz aqui o papel de programador. No final, espera-se que o entrevistado tenha a capacidade de explicar o procedimento adotado e que o algoritmo descrito seja funcional para ordenar as cartas.
 
-Abraços, pessoal legal da ITAbits.
+
+Abraços,
+Pessoal legal da ITAbits :)
 
 PS.: Caso você não esteja conseguindo transformar o seu jeito de ordenar as cartas do baralho em um algoritmo que se encaixe nas especificações dadas, ou caso esteja curioso em busca das mais diferentes soluções possíveis pra esse problema, a busca por "sorting algorithms" pode te trazer muitos conhecimentos interessantes.
 
