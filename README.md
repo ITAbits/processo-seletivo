@@ -120,7 +120,7 @@ A sua tarefa será explicar ao entrevistador como ordenar um grupo de cartas de 
 - As suas decisões de ordenamento devem seguir um algoritmo predefinido com base no que foi exposto acima e nos seus estudos.
 - A sua explicação deve ser reproduzível pelo entrevistador com um conjunto diferente e qualquer de cartas.
 
-Segue um exemplo de como a entrevista funcionaria caso o problema fosse separar cartas de um baralho convencional por cor (a visão e a mão representam o entrevistador; a voz representa o entrevistado): [video-exemplo](https://streamable.com/53g4v). Ou seja, tudo se passará como se o entrevistador fosse o computador que vai seguir as instruções do entrevistado, que faz aqui o papel de programador. No final, espera-se que o entrevistado tenha a capacidade de explicar o procedimento adotado e que o algoritmo descrito seja funcional para ordenar as cartas.
+Segue um exemplo de como a entrevista funcionaria caso o problema fosse separar cartas de um baralho convencional por cor (a visão e a mão representam o entrevistador; a voz representa o entrevistado): [video-exemplo](https://streamable.com/53g4v). Ou seja, tudo se passará como se o entrevistador fosse o computador que vai seguir as instruções do entrevistado, que faz aqui o papel de programador. No final, espera-se que o entrevistado tenha a capacidade de explicar o procedimento adotado e que o algoritmo descrito seja funcional e eficiente para ordenar as cartas face à quantidade de operações utilizadas.
 
 
 Abraços,
