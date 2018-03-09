@@ -109,7 +109,7 @@ Aqui, tinhamos uma lista de números e a ordenamos em ordem crescente.
 
 Como no exemplo do jogo da adivinhação, existem diferentes algoritmos para ordenação de coisas (usaremos números em ordem nesse texto por simplicidade). Esses algoritmos funcionam de maneiras diferentes e podem resolver o problema com números distintos de ações, como os dois algoritmos do jogo de adivinhação acima.
 
-A sua tarefa será explicar ao entrevistador como ordenar um grupo de cartas de um baralho convencional com as seguintes restrições:
+A sua tarefa será explicar ao entrevistador como ordenar um grupo de cartas de um baralho convencional (colocar as cartas originalmente dispostas ao acaso em ordem crescente numérica, sem considerar naipes) com as seguintes restrições:
 - Você será responsável por ditar as instruções ao entrevistador
 - Haverá um total de no máximo 8 cartas para serem ordenadas por vez
 - As cartas estarão viradas para baixo e dispostas lado a lado
