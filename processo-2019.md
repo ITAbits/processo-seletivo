@@ -1,6 +1,6 @@
 # Processo Seletivo 2019 - ITAbits
 
-    Este processo foi feito originalmente por email.
+  > Este processo foi feito originalmente por email.
     Está reproduzida abaixo uma compilação de tais emails para fins de documentação.
 
 
@@ -60,7 +60,7 @@ A plataforma que utilizaremos é o Codepit.
 
 ## Prova liberada
 
-    Tentamos utilizar um contest fechado no Codepit, mas ocorreram problemas técnicos e algumas pessoas
+> Tentamos utilizar um contest fechado no Codepit, mas ocorreram problemas técnicos e algumas pessoas
     não estavam conseguinto submeter as questões. Por isso, disponibilizamos posteriormente apenas os 
     links para os exercícios e coletamos os códigos por email.
     
